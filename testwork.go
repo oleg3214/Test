@@ -14,7 +14,6 @@ import (
 )
 
 func main() {
-	// 1. Путь к chromedriver
 	const chromeDriverPath = "C:/goProject/Test/chromedriver.exe"
 
 	// 2. Запуск ChromeDriver сервиса
