@@ -16,7 +16,6 @@ import (
 func main() {
 	const chromeDriverPath = "C:/goProject/Test/chromedriver.exe"
 
-	// 2. Запуск ChromeDriver сервиса
 	service, err := selenium.NewChromeDriverService(chromeDriverPath, 4444)
 	if err != nil {
 		log.Fatal("Ошибка запуска ChromeDriver:", err)
